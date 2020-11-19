@@ -6,16 +6,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.AzureServiceBus" Version="3.2.2" />
+    <PackageReference Include="AspNetCore.Identity.MongoDbCore" Version="2.1.1" />
+    <PackageReference Include="AspNetCore.IServiceCollection.AddIUrlHelper" Version="1.1.0" />
+    <PackageReference Include="IServiceAPI" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.9" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="5.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
     <PackageReference Include="MongoDB.Bson" Version="2.11.4" />
     <PackageReference Include="MongoDB.Driver" Version="2.11.4" />
     <PackageReference Include="MongoDB.Driver.Core" Version="2.11.4" />
     <PackageReference Include="MongoRepository" Version="1.6.11" />
+    <PackageReference Include="netfx-System.ServiceProvider" Version="1.2.1" />
+    <PackageReference Include="ServiceComposer.AspNetCore.Mvc" Version="1.0.0" />
+    <PackageReference Include="ServiceFabric.Extensions.Configuration" Version="1.0.1" />
+    <PackageReference Include="ServiceProviderExtensions" Version="1.0.0" />
+    <PackageReference Include="System.ServiceModel.Web" Version="1.0.0" />
     <PackageReference Include="Verve.Identity.Core.Service" Version="1.20201103.2" />
   </ItemGroup>
 
